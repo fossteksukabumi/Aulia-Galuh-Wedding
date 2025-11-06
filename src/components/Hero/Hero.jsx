@@ -16,7 +16,7 @@ import {
 } from "./Hero.style";
 
 import image1 from "../../assets/images/Hero.webp";
-import video1 from "../../assets/videos/trailer.mp4";
+
 import { FaPlus, FaThumbsUp, FaMapMarkerAlt } from "react-icons/fa";
 
 export default function Hero({ mainAudioRef }) {
@@ -110,7 +110,7 @@ END:VCALENDAR
           preload="auto"
           onVolumeChange={handleVolumeChange}
         >
-          <source src={video1} type="video/mp4" />
+          <source src="/videos/trailer.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       </div>
