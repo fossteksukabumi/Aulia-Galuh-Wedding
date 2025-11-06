@@ -98,21 +98,21 @@ END:VCALENDAR
       </PosterWrapper>
 
    
-      <div style={{ width: "100%" }}>
-        <video
-          ref={videoRef}
-          width="100%"
-          autoPlay
-          muted
-          loop
-          controls
-          playsInline
-          preload="auto"
-          onVolumeChange={handleVolumeChange}
-        >
-          <source src="/videos/trailer.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
+      <div style={{ width: "100%", position: "relative", paddingBottom: "56.25%", height: 0 }}>
+        <iframe
+          src="https://www.youtube.com/embed/AQXC8eAX34U?controls=1&autoplay=0"
+          title="Wedding Trailer"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowFullScreen
+          style={{
+            position: "absolute",
+            top: 0,
+            left: 0,
+            width: "100%",
+            height: "100%",
+          }}
+        ></iframe>
       </div>
 
       
