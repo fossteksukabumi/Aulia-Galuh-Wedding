@@ -98,26 +98,22 @@ END:VCALENDAR
       </PosterWrapper>
 
    
-    <div style={{ width: "100%" }}>
-      <video
-        ref={videoRef}
-        width="100%"
-        autoPlay
-        muted
-        loop
-        controls
-        playsInline
-        preload="auto"
-        onVolumeChange={handleVolumeChange}
-      >
-        <source
-          src="https://drive.google.com/uc?export=download&id=1AGi-6QX_lyW_5AYb70Cor_X9-GwShFyu"
-          type="video/mp4"
-        />
-        Your browser does not support the video tag.
-      </video>
-    </div>
-
+      <div style={{ width: "100%" }}>
+        <video
+          ref={videoRef}
+          width="100%"
+          autoPlay
+          muted
+          loop
+          controls
+          playsInline
+          preload="auto"
+          onVolumeChange={handleVolumeChange}
+        >
+          <source src="/videos/trailer.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
 
       
       <Info>
