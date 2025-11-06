@@ -92,7 +92,7 @@ export default function Splash() {
       opacity: "0.7",
     },
     card: {
-      backgroundColor: "rgba(0, 0, 0, 0.8)",
+      backgroundColor: "rgba(0, 0, 0, 0.36)",
       backdropFilter: "blur(10px)",
       borderRadius: "24px",
       padding: "32px",
